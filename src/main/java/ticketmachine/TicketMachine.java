@@ -99,9 +99,7 @@ public class TicketMachine {
 		System.out.println();
                 this.balance=this.balance-this.price;
                 this.total+=this.price;
-                if (this.getBalance()>0){
-                    refund();
-                }
+
 		return true; 
             }
             

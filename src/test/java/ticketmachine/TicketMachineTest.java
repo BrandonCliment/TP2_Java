@@ -87,11 +87,5 @@ public class TicketMachineTest {
             machine=new TicketMachine(-50);
         }
         
-       @Test
-       //S11: Test du refund si trop de monnaie
-        public void refundSup(){
-            machine.insertMoney(60);
-            machine.printTicket();
-            assertEquals(machine.getBalance(), 0);
-        }
+
 }
